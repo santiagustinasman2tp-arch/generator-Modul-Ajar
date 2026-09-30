@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuruHub - Profil & Generator Administrasi Guru</title>
+    <!-- Framework CSS Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .custom-gradient {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-100 font-sans text-slate-800 min-h-screen pb-12">
+
+    <!-- Navbar / Header Mini -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
+        <div class="max-w-xl mx-auto px-4 py-3 flex justify-between items-center">
+            <span class="font-bold text-indigo-600 text-lg flex items-center gap-2">
+                <i class="fa-solid fa-graduation-cap"></i> ModulGuru.id
+            </span>
+            <span class="text-xs bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full font-semibold">
+                Kurikulum Merdeka
+            </span>
+        </div>
+    </header>
+
+    <main class="max-w-xl mx-auto px-4 mt-6 space-y-6">
+
+        <!-- KARTU PROFIL GURU (Ala Lynk.id / S.id) -->
+        <section class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 text-center relative overflow-hidden">
+            <div class="h-20 custom-gradient absolute top-0 left-0 right-0"></div>
+            
+            <div class="relative z-10 pt-4">
+                <!-- Foto Profil -->
+                <img src="assets/img/profil.png" 
+                     alt="Foto Profil" 
+                     class="w-24 h-24 rounded-full mx-auto border-4 border-white shadow-md object-cover">
+                
+                <h1 class="text-xl font-bold mt-3 text-slate-900">Santi Agustina, M.Pd.</h1>
+                <p class="text-xs font-medium text-indigo-600 mb-2">Guru Fisika - SMAN 2 Tanah Putih</p>
+                <p class="text-xs text-slate-500 max-w-sm mx-auto leading-relaxed">
+                    Berbagi administrasi pembelajaran, modul ajar, dan media interaktif untuk mendukung Bapak/Ibu Guru Indonesia.
+                </p>
+
+                <!-- Sosmed / Kontak Quick Links -->
+                <div class="flex justify-center gap-3 mt-4 text-slate-600">
+                    <a href="https://wa.me/6281234567890" target="_blank" class="w-8 h-8 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center hover:bg-emerald-600 hover:text-white transition">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" class="w-8 h-8 rounded-full bg-red-50 text-red-600 flex items-center justify-center hover:bg-red-600 hover:text-white transition">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://drive.google.com" target="_blank" class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center hover:bg-blue-600 hover:text-white transition">
+                        <i class="fa-brands fa-google-drive"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PENGHUBUNG KUSTOM GEMS AI (GENERATOR ADMINISTRASI) -->
+        <section class="space-y-3">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 px-1">
+                <i class="fa-solid fa-wand-magic-sparkles text-indigo-500 mr-1"></i> Custom AI Gems Generator
+            </h2>
+
+            <!-- Gem 1: Generator RPP / Modul Ajar -->
+            <a href="https://gemini.google.com/gem/1SBxlBm9l_GWvdbGL7_Q-wfevIWyffnB1?usp=sharing" 
+               target="_blank" 
+               class="flex items-center justify-between p-4 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-indigo-500 hover:shadow-md transition group">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center text-xl group-hover:bg-indigo-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-file-signature"></i>
+                    </div>
+                    <div class="text-left">
+                        <h3 class="font-bold text-slate-800 group-hover:text-indigo-600 transition">Generator RPP / Modul Ajar</h3>
+                        <p class="text-xs text-slate-500">Susun RPP/Modul Ajar Kurikulum Merdeka otomatis.</p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-indigo-600 text-sm"></i>
+            </a>
+
+            <!-- Gem 2: Generator LKPD -->
+            <a href="https://gemini.google.com/gem/1gbzu5TASYBmZcOpNdCbUlXm8ehUxHRPt?usp=sharing" 
+               target="_blank" 
+               class="flex items-center justify-between p-4 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-emerald-500 hover:shadow-md transition group">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl group-hover:bg-emerald-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-list-check"></i>
+                    </div>
+                    <div class="text-left">
+                        <h3 class="font-bold text-slate-800 group-hover:text-emerald-600 transition">Generator LKPD</h3>
+                        <p class="text-xs text-slate-500">Buat Lembar Kerja Peserta Didik interaktif & siap cetak.</p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-emerald-600 text-sm"></i>
+            </a>
+
+            <!-- Gem 3: Generator Media Pembelajaran -->
+            <a href="https://gemini.google.com/gem/1a7xVGwLqM4MxfnuyZt11J7Hpa1ExqKzG?usp=sharing" 
+               target="_blank" 
+               class="flex items-center justify-between p-4 bg-white rounded-xl border border-slate-200 shadow-sm hover:border-purple-500 hover:shadow-md transition group">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center text-xl group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <div class="text-left">
+                        <h3 class="font-bold text-slate-800 group-hover:text-purple-600 transition">Generator Media Digital</h3>
+                        <p class="text-xs text-slate-500">Buat kuis Quizizz/Kahoot & outline slide presentasi.</p>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-purple-600 text-sm"></i>
+            </a>
+        </section>
+
+        <!-- KUMPULAN LINK/RESOURCE TAMBAHAN (ALA LYNK.ID) -->
+        <section class="space-y-3">
+            <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400 px-1">
+                <i class="fa-solid fa-folder-open text-amber-500 mr-1"></i> Perangkat Pembelajaran Saya
+            </h2>
+
+            <!-- Link File / Drive 1 -->
+            <a href="https://drive.google.com" target="_blank" class="block p-3.5 bg-white rounded-xl border border-slate-200 text-center font-medium text-sm text-slate-700 hover:bg-slate-50 transition">
+                📁 Unduh Bank Soal Sumatif & Formatif (Google Drive)
+            </a>
+
+            <!-- Link File / Drive 2 -->
+            <a href="https://canva.com" target="_blank" class="block p-3.5 bg-white rounded-xl border border-slate-200 text-center font-medium text-sm text-slate-700 hover:bg-slate-50 transition">
+                🎨 Template Presentasi Pembelajaran Interaktif (Canva)
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center pt-6 text-xs text-slate-400 border-t border-slate-200">
+            <p>&copy; 2026 ModulGuru Studio. Dibuat untuk Kemudahan Guru.</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
